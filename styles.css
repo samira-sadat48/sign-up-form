@@ -1,3 +1,38 @@
-h1 {
-    color: red;
+@font-face {
+    font-family: odin-font;
+    src: url(Norse-Bold.otf);
+}
+
+body {
+    display: flex;
+}
+
+.banner-box {
+    background-image: url("images/green_leaves_jungle.jpg");
+    background-size: 45vw 100vh;
+    height:100vh;
+    width: 45vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo-box {
+    height: 20vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    top: 15rem;
+    font-family: odin-font, sans-serif;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0,0,0,0.35);
+}
+
+.logo-box h1 {
+    color: white;
+    font-size: 6rem;
+}
+
+.logo-box img{
+    height: clamp(100px, 80%, 200px);
 }
