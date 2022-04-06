@@ -27,31 +27,43 @@
             <form action="/my-handling-form-page" method="post">
                 <ul>
                     <li>
-                        <label for="first-name">First Name</label>
-                        <input type="text" id="first-name" name="user-first-name">
+                        <div class="form-element">
+                            <label for="first-name">First Name</label>
+                            <input type="text" id="first-name" name="user-first-name">
+                        </div>
                     </li>
                     <li>
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="user-email">
+                        <div class="form-element">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="user-email">
+                        </div>
                     </li>
                     <li>
-                        <label for="password">Password</label>
-                        <input type="password" id="password" name="password" minlength="8" required>
+                        <div class="form-element">
+                            <label for="password">Password</label>
+                            <input type="password" id="password" name="password" minlength="8" required>
+                        </div>
                     </li>
                 </ul>
                 <ul>
                     <li>
-                        <label for="last-name">Last Name</label>
-                        <input type="text" id="last-name" name="user-last-name">
+                        <div class="form-element">
+                            <label for="last-name">Last Name</label>
+                            <input type="text" id="last-name" name="user-last-name">
+                        </div>
                     </li>
                     <li>
-                        <label for="phone-number">Phone Number</label>
-                        <input type="tel" id="phone-number" name="user-phone-number">
+                        <div class="form-element">
+                            <label for="phone-number">Phone Number</label>
+                            <input type="tel" id="phone-number" name="user-phone-number">
+                        </div>
                     </li>
                     <li>
-                        <label for="password-confirm">Confirm Password</label>
-                        <input type="password" id="password" name="password-confirm" minlength="8" required>
-                        <!--Check if this matches the password-->
+                        <div class="form-element">
+                            <label for="password-confirm">Confirm Password</label>
+                            <input type="password" id="password" name="password-confirm" minlength="8" required>
+                            <!--Check if this matches the password-->
+                        </div>
                     </li>
                 </ul>
             </form>
