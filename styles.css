@@ -98,6 +98,8 @@ input {
     padding: 4px 6px;
     border: 1px solid #E5E7EB;
     border-radius: 4px;
+    width: 185px;
+    font-size: 12px;
 }
 
 .create-account {
@@ -109,7 +111,7 @@ input {
     padding-top: 20px;
 }
 
-.create-account-btn {
+button {
     background-color: #596D48;
     color: white;
     border-radius: 6px;
