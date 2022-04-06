@@ -105,6 +105,10 @@ input {
     font-size: 12px;
 }
 
+input:focus, input:hover{
+    border: 1px solid blue;
+}
+
 .create-account {
     margin-left: 32px;
     margin-top: 32px;
