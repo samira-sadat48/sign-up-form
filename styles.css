@@ -3,9 +3,15 @@
     src: url(Norse-Bold.otf);
 }
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     display: flex;
     margin: 0;
+    padding: 0;
 }
 
 .banner-box {
@@ -40,6 +46,7 @@ body {
 
 .right-side-box {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #f7f8fa;
 }
 
 .right-side-box h1 {
@@ -49,5 +56,12 @@ body {
 .info-box {
     margin-top: 100px;
     margin-left: 30px;
-    width: 450px;
+}
+
+.form-box {
+    margin-left: 30px;
+}
+
+.form-box ul {
+    list-style: none;
 }
