@@ -8,10 +8,11 @@
     padding: 0;
 }
 
-body {
+body, html {
     display: flex;
     margin: 0;
     padding: 0;
+    width: 100%;
 }
 
 .banner-box {
@@ -47,6 +48,8 @@ body {
 .right-side-box {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #f7f8fa;
+    position: relative;
+    width:100%;
 }
 
 .right-side-box h1 {
